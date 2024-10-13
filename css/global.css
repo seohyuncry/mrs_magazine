@@ -1,0 +1,706 @@
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+
+.yeon{
+    font-family: "Yeon Sung";
+}
+.jua{
+    font-family: "Jua";
+}
+.black{
+    font-family: "Black Han Sans";
+}
+.nanum{
+    font-family: "Nanum Gothic";
+}
+.ibm{
+    font-family: "IBM Plex Sans KR";
+}
+.gowun{
+    font-family: "Gowun Dodum";
+}
+
+@media screen and (max-width: 767px) {
+    
+    .mrmainContainer{
+        overflow-x: hidden;
+    }
+    header{
+        padding: 20px 0;
+        border-bottom: 1px solid #d6d5d5;
+        position: sticky;
+        top: 0;
+        z-index: 999;
+        width: 100%;
+        background-color: #fff;
+    }
+    header > div,
+    #second,
+    .sub_slide .sub_content,
+    .third > div,
+    .healthoneContainer > div:not(:first-child),
+    .healthone_img,
+    .healthmain_one,
+    .dietgroup,
+    .textLgroup,
+    .textRgroup,
+    .anxiety_what,
+    .anxiety_kind,
+    .anxiety_overcome,
+    .anxiety_test,
+    .adhd_symptom > div,
+    .adhd_text,
+    .adhd_img_group,
+    .adhd_slide_group,
+    .father_main > div,
+    .father_essential,
+    .father_infant,
+    .creativity_list,
+    .three_img_group,
+    .popcorn_one,
+    .popcorn_two,
+    .bread_cake,
+    #foodoneContainer > div:not(:last-child),
+    .bread_cake,
+    .food_main_two,
+    #foodthreeContainer,
+    #foodfourContainer > div,
+    .interior_main > div,
+    #interioroneContainer > div:not(:first-child),
+    .interior_main_two > div,
+    #interiortwoContainer > div:not(:first-child),
+    .superfoodgroup,
+    .interior_main_three > div,
+    #interiorthreeContainer > div:not(:first-child),
+    #light_point > div,
+    #interiorfourContainer > div:not(:first-child),
+    .interior_main_four > div,
+    .plus_temple,
+    .last_temple,
+    .plus_season,
+    .dog_info,
+    .dog_qna_one,
+    .dog_qna_two,
+    .dog_love,
+    .food_cardnews
+    {
+        max-width: 90%;
+        margin: 0 auto;
+    } 
+    header > div{
+        display: flex;
+        justify-content: space-between;
+    }
+    header > div > .header_one div{
+        display: none;
+    }
+    header > div > .header_one input[type="search"]{
+        display: none;
+    }
+    header > div > .header_two{
+        margin: 8px 0 0 11px;
+    }
+    header > div > .header_two > h1{
+        width: 95px;
+    }
+    header > div > .header_two > h1 > a > img{
+        width: 100%;
+    }
+    header > div > .header_three > .hamburger > input[type="button"]{
+        background: url("../images/header_hamburger.png") center center no-repeat;
+        width: 30px;
+        height: 30px;
+        text-indent: -9999px;
+        border: none;
+        cursor: pointer;
+        display: inline-block;
+        background-size: contain;
+    }
+    #magazinePanel{
+        position: fixed;
+        width: 100%;
+        background-color: rgba(0,0,0,0.8);
+        height: 100%;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        transition: all 0.5s;
+    }
+    #magazinePanel.active{
+        right: -100%;
+        transition: all 0.5s;
+    }
+    #magazinePanel > input[type="button"]{
+        background: url("../images/header_close.png") center center no-repeat;
+        width: 30px;
+        height: 30px;
+        text-indent: -9999px;
+        border: none;
+        cursor: pointer;
+        display: inline-block;
+        position: absolute;
+        top: 20px;
+        right: 16px;
+        background-size: contain;
+    }
+    #magazinePanel > div{
+        position: absolute;
+        left: 35px;
+        top: 120px;
+    }
+    #magazinePanel > div > .gnb > ul > li > strong{
+        font-size: 16px;
+        padding-bottom: 10px;
+        margin-bottom: 10px;
+        display: block;
+        border-bottom: 1px solid #fff;
+        width: 280px;
+    }
+    #magazinePanel > div > .gnb > ul > li > strong:after{
+        content: "";
+        display: block;
+        float: right;
+        width: 15px;
+        height: 9px;
+        background-image: url('../images/gnb_arrow_bottom.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    #magazinePanel > div > .gnb > ul > li > strong.active:after{
+        content: "";
+        display: block;
+        float: right;
+        width: 15px;
+        height: 9px;
+        background-image: url('../images/gnb_arrow_top.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    #magazinePanel > div > .gnb > ul > li:nth-child(1) > strong{
+        color: #b9ca5f;
+    }
+    #magazinePanel > div > .gnb > ul > li:nth-child(2) > strong{
+        color: #d03419;
+    }
+    #magazinePanel > div > .gnb > ul > li:nth-child(3) > strong{
+        color: #9b521f;
+    }
+    #magazinePanel > div > .gnb > ul > li:nth-child(4) > strong{
+        color: #928f7e;
+    }
+    #magazinePanel > div > .gnb > ul > li:nth-child(5) > strong{
+        color: #628dba;
+    }
+    #magazinePanel > div > .gnb > ul > li > strong+ul{
+        display: none;
+    }
+    #magazinePanel > div > .gnb > ul > li > strong.active+ul{
+        display: block;
+    }
+    #magazinePanel > div > .gnb > ul > li > ul > li{
+        margin-bottom: 15px;
+    }
+    #magazinePanel > div > .gnb > ul > li > ul > li > a{
+        color: #fff; 
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 18px;
+    }
+    #magazinePanel > div > .gnb > ul > li:nth-child(1) > ul > li > a > span{
+        color: #e8f98f;
+    }
+    #magazinePanel > div > .gnb > ul > li:nth-child(2) > ul > li > a > span{
+        color: #e06e5a;
+    }
+    #magazinePanel > div > .gnb > ul > li:nth-child(3) > ul > li > a > span{
+        color: #c9885a;
+    }
+    #magazinePanel > div > .gnb > ul > li:nth-child(4) > ul > li > a > span{
+        color: #cecab3;
+    }
+    #magazinePanel > div > .gnb > ul > li:nth-child(5) > ul > li > a > span{
+        color: #9dbddd;
+    } 
+
+
+    footer{
+        background-color: #f7f7f7;
+        text-align: center;
+        padding: 20px 0;
+    }
+    footer > .footergroup > h2{
+        width: 95px;
+        display: inline-block;
+    }
+    footer > .footergroup > h2 > img{
+        width: 100%;
+    }
+    footer > .footergroup > span{
+        font-weight: 400;
+        font-size: 10px;
+        text-decoration: underline;
+        text-underline-offset: 3px;
+        padding: 5px 0 10px;
+        display: block;
+    }
+    footer > .footergroup > p{
+        font-weight: 400;
+        font-size: 8px;
+        color: #aaaaaa;
+    }
+}
+/* moblie */
+
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+    
+    .mrmainContainer{
+        overflow-x: hidden;
+    }
+    header{
+        padding: 20px 0;
+        border-bottom: 1px solid #d6d5d5;
+        position: sticky;
+        top: 0;
+        z-index: 20;
+        width: 100%;
+        background-color: #fff;
+    }
+    header > div,
+    #second,
+    .sub_slide .sub_content,
+    .third > div,
+    .healthoneContainer > div:not(:first-child),
+    .healthone_img,
+    .dietgroup,
+    .textLgroup,
+    .textRgroup,
+    .anxiety_what,
+    .anxiety_kind,
+    .anxiety_overcome,
+    .anxiety_test,
+    .adhd_symptom > div,
+    .adhd_text,
+    .adhd_img_group,
+    .adhd_slide_group,
+    .father_main > div,
+    .father_essential,
+    .father_infant,
+    .creativity_list,
+    .three_img_group,
+    .popcorn_one,
+    .popcorn_two,
+    #foodoneContainer > div:not(:last-child),
+    .bread_cake,
+    .food_main_two,
+    .superfoodgroup,
+    #foodthreeContainer,
+    #foodfourContainer > div,
+    .interior_main > div,
+    #interioroneContainer > div:not(:first-child),
+    .interior_main_two > div,
+    #interiortwoContainer > div:not(:first-child),
+    .interior_main_three > div,
+    #interiorthreeContainer > div:not(:first-child),
+    #light_point > div,
+    #interiorfourContainer > div:not(:first-child),
+    .interior_main_four > div,
+    .plus_temple,
+    .plus_season,
+    .dog_info,
+    .dog_qna_one,
+    .dog_qna_two,
+    .dog_love,
+    .food_cardnews
+    {
+        max-width: 720px;
+        margin: 0 auto;
+    } 
+    header > div{
+        display: flex;
+        justify-content: space-between;
+    }
+    header > div > .header_one{
+        margin-top: 5px;
+    }
+    header > div > .header_one div{
+        background-color: #f5d046;
+        padding: 10px;
+        float: left;
+        min-width: 30px;
+        display: block;
+        text-align: center;
+    }
+    header > div > .header_one div > img{
+        max-width: 20px;
+    }
+    header > div > .header_one input[type="search"]{
+        line-height: 36px;
+        border: 2px solid #f5d046;
+        padding-left: 15px;
+        width: 135px;
+        font-weight: 700;
+        font-size: 9px;
+        font-family: inherit;
+    }
+    header > div > .header_one input[type="search"]::placeholder{
+        color: #b4b1b1;
+    }
+    header > div > .header_two{
+        margin: 10px 0 0 -200px;
+    }
+    header > div > .header_two > h1{
+        max-width: 120px;
+        width: 16.66%;
+    }
+    header > div > .header_three > .hamburger > input[type="button"]{
+        background: url("../images/header_hamburger.png") center center no-repeat;
+        width: 56px;
+        height: 56px;
+        text-indent: -9999px;
+        border: none;
+        cursor: pointer;
+        display: inline-block;
+    }
+    #magazinePanel{
+        position: fixed;
+        width: 78%;
+        background-color: rgba(0,0,0,0.8);
+        height: 100%;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        transition: all 0.5s;
+    }
+    #magazinePanel.active{
+        right: -85%;
+        transition: all 0.5s;
+    }
+    #magazinePanel > input[type="button"]{
+        background: url("../images/header_close.png") center center no-repeat;
+        width: 56px;
+        height: 56px;
+        text-indent: -9999px;
+        border: none;
+        cursor: pointer;
+        display: inline-block;
+        position: absolute;
+        top: 20px;
+        right: 24px;
+    }
+    #magazinePanel > div{
+        position: absolute;
+        left: 35px;
+        top: 150px;
+    }
+    #magazinePanel > div > .gnb > ul > li > strong{
+        font-size: 30px;
+        padding-bottom: 20px;
+        margin-bottom: 30px;
+        display: block;
+        border-bottom: 2px solid #fff;
+        width: 535px;
+    }
+    #magazinePanel > div > .gnb > ul > li > strong:after{
+        content: url('../images/gnb_arrow_bottom.png');
+        display: block;
+        float: right;
+    }
+    #magazinePanel > div > .gnb > ul > li > strong.active:after{
+        content: url('../images/gnb_arrow_top.png');
+        display: block;
+        float: right;
+    }
+    #magazinePanel > div > .gnb > ul > li:nth-child(1) > strong{
+        color: #b9ca5f;
+    }
+    #magazinePanel > div > .gnb > ul > li:nth-child(2) > strong{
+        color: #d03419;
+    }
+    #magazinePanel > div > .gnb > ul > li:nth-child(3) > strong{
+        color: #9b521f;
+    }
+    #magazinePanel > div > .gnb > ul > li:nth-child(4) > strong{
+        color: #928f7e;
+    }
+    #magazinePanel > div > .gnb > ul > li:nth-child(5) > strong{
+        color: #628dba;
+    }
+    #magazinePanel > div > .gnb > ul > li > strong+ul{
+        display: none;
+    }
+    #magazinePanel > div > .gnb > ul > li > strong.active+ul{
+        display: block;
+    }
+    #magazinePanel > div > .gnb > ul > li > ul > li{
+        margin-bottom: 30px;
+    }
+    #magazinePanel > div > .gnb > ul > li > ul > li > a{
+        color: #fff; 
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 26px;
+    }
+    #magazinePanel > div > .gnb > ul > li:nth-child(1) > ul > li > a > span{
+        color: #e8f98f;
+    }
+    #magazinePanel > div > .gnb > ul > li:nth-child(2) > ul > li > a > span{
+        color: #e06e5a;
+    }
+    #magazinePanel > div > .gnb > ul > li:nth-child(3) > ul > li > a > span{
+        color: #c9885a;
+    }
+    #magazinePanel > div > .gnb > ul > li:nth-child(4) > ul > li > a > span{
+        color: #cecab3;
+    }
+    #magazinePanel > div > .gnb > ul > li:nth-child(5) > ul > li > a > span{
+        color: #9dbddd;
+    } 
+
+
+    footer{
+        background-color: #f7f7f7;
+        text-align: center;
+        padding: 45px 0;
+    }
+    footer > .footergroup > span{
+        font-weight: 400;
+        font-size: 14px;
+        text-decoration: underline;
+        text-underline-offset: 3px;
+        padding: 15px 0 20px;
+        display: block;
+    }
+    footer > .footergroup > p{
+        font-weight: 400;
+        font-size: 12px;
+        color: #aaaaaa;
+    }
+}
+/* tablet */
+
+@media screen and (min-width: 1280px) {
+
+    header{
+        padding: 40px 0;
+        border-bottom: 1px solid #d6d5d5;
+        position: sticky;
+        top: 0;
+        z-index: 20;
+        width: 100%;
+        background-color: #fff;
+    }
+    header > div,
+    .healthone_img,
+    #second,
+    .sub_slide .sub_content,
+    .third > div,
+    .healthoneContainer > div:not(:first-child),
+    .dietgroup,
+    .textLgroup,
+    .textRgroup,
+    .anxiety_what,
+    .anxiety_kind,
+    .anxiety_overcome,
+    .anxiety_test,
+    .adhd_symptom > div,
+    .adhd_text,
+    .adhd_img_group,
+    .adhd_slide_group,
+    .father_main > div,
+    .father_essential,
+    .father_infant,
+    .creativity_list,
+    .three_img_group,
+    .popcorn_one,
+    .popcorn_two,
+    #foodoneContainer > div:not(:last-child),
+    .bread_cake,
+    .food_main_two,
+    .superfoodgroup,
+    #foodthreeContainer,
+    #foodfourContainer > div,
+    .interior_main > div,
+    #interioroneContainer > div:not(:first-child),
+    .interior_main_two > div,
+    #interiortwoContainer > div:not(:first-child),
+    .interior_main_three > div,
+    #interiorthreeContainer > div:not(:first-child),
+    #light_point > div,
+    #interiorfourContainer > div:not(:first-child),
+    .interior_main_four > div,
+    .plus_temple,
+    .plus_season,
+    .dog_info,
+    .dog_qna_one,
+    .dog_qna_two,
+    .dog_love,
+    .food_cardnews
+    {
+        max-width: 1480px;
+        margin: 0 auto;
+    } 
+    header > div{
+        display: flex;
+        justify-content: space-between;
+    }
+    header > div > .header_one div{
+        background-color: #f5d046;
+        padding: 15px 0;
+        float: left;
+        min-width: 60px;
+        display: block;
+        text-align: center;
+    }
+    header > div > .header_one input[type="search"]{
+        line-height: 52px;
+        border: 2px solid #f5d046;
+        padding-left: 15px;
+        width: 330px;
+        font-weight: 700;
+        font-size: 15px;
+        font-family: inherit;
+    }
+    header > div > .header_one input[type="search"]::placeholder{
+        color: #b4b1b1;
+    }
+    header > div > .header_two{
+        margin: 15px 0 0 -330px;
+    }
+    header > div > .header_two > h1{
+        max-width: 165px;
+        width: 11.14%;
+    }
+    header > div > .header_three > .hamburger > input[type="button"]{
+        background: url("../images/header_hamburger.png") center center no-repeat;
+        width: 56px;
+        height: 56px;
+        text-indent: -9999px;
+        border: none;
+        cursor: pointer;
+        display: inline-block;
+    }
+    #magazinePanel{
+        position: fixed;
+        width: 780px;
+        background-color: rgba(0,0,0,0.8);
+        height: 100%;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        transition: all 0.5s;
+    }
+    #magazinePanel.active{
+        right: -50%;
+        transition: all 0.5s;
+    }
+    #magazinePanel > input[type="button"]{
+        background: url("../images/header_close.png") center center no-repeat;
+        width: 56px;
+        height: 56px;
+        text-indent: -9999px;
+        border: none;
+        cursor: pointer;
+        display: inline-block;
+        position: absolute;
+        top: 40px;
+        right: 210px;
+    }
+    #magazinePanel > div{
+        position: absolute;
+        left: 35px;
+        top: 150px;
+    }
+    #magazinePanel > div > .gnb > ul > li > strong{
+        font-size: 30px;
+        padding-bottom: 20px;
+        margin-bottom: 30px;
+        display: block;
+        border-bottom: 2px solid #fff;
+        width: 535px;
+    }
+    #magazinePanel > div > .gnb > ul > li > strong:after{
+        content: url('../images/gnb_arrow_bottom.png');
+        display: block;
+        float: right;
+    }
+    #magazinePanel > div > .gnb > ul > li > strong.active:after{
+        content: url('../images/gnb_arrow_top.png');
+        display: block;
+        float: right;
+    }
+    #magazinePanel > div > .gnb > ul > li:nth-child(1) > strong{
+        color: #b9ca5f;
+    }
+    #magazinePanel > div > .gnb > ul > li:nth-child(2) > strong{
+        color: #d03419;
+    }
+    #magazinePanel > div > .gnb > ul > li:nth-child(3) > strong{
+        color: #9b521f;
+    }
+    #magazinePanel > div > .gnb > ul > li:nth-child(4) > strong{
+        color: #928f7e;
+    }
+    #magazinePanel > div > .gnb > ul > li:nth-child(5) > strong{
+        color: #628dba;
+    }
+    #magazinePanel > div > .gnb > ul > li > strong+ul{
+        display: none;
+    }
+    #magazinePanel > div > .gnb > ul > li > strong.active+ul{
+        display: block;
+    }
+    #magazinePanel > div > .gnb > ul > li > ul > li{
+        margin-bottom: 30px;
+    }
+    #magazinePanel > div > .gnb > ul > li > ul > li > a{
+        color: #fff; 
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 26px;
+    }
+    #magazinePanel > div > .gnb > ul > li:nth-child(1) > ul > li > a > span{
+        color: #e8f98f;
+    }
+    #magazinePanel > div > .gnb > ul > li:nth-child(2) > ul > li > a > span{
+        color: #e06e5a;
+    }
+    #magazinePanel > div > .gnb > ul > li:nth-child(3) > ul > li > a > span{
+        color: #c9885a;
+    }
+    #magazinePanel > div > .gnb > ul > li:nth-child(4) > ul > li > a > span{
+        color: #cecab3;
+    }
+    #magazinePanel > div > .gnb > ul > li:nth-child(5) > ul > li > a > span{
+        color: #9dbddd;
+    }
+
+
+    footer{
+        background-color: #f7f7f7;
+        text-align: center;
+        padding: 65px 0;
+    }
+    footer > .footergroup > h2{
+        max-width: 165px;
+        width: 11.14%;
+        margin: 0 auto;
+    }
+    footer > .footergroup > span{
+        font-weight: 400;
+        font-size: 16px;
+        text-decoration: underline;
+        text-underline-offset: 3px;
+        padding: 15px 0 20px;
+        display: block;
+    }
+    footer > .footergroup > p{
+        font-weight: 400;
+        font-size: 15px;
+        color: #aaaaaa;
+    }
+}
+/* desktop */

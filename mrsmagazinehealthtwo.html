@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mrs.magazine_health_two</title>
+    <script src="js/jquery-3.7.0.min.js"></script>
+    <script src="js/bxslider.js"></script>
+    <script src="js/fitVids.js"></script>
+    <script src="js/mrsmagazine.js"></script>
+    <link rel="stylesheet" href="css/import.css">
+</head>
+<body>
+
+    <header>
+        <div>
+            <div class="header_one">
+                <form>
+                    <div>
+                        <img src="images/header_search.png" alt="searchicon">
+                    </div>
+                    <input type="search" placeholder="검색어를 입력하세요.">
+                </form>
+            </div>
+            <div class="header_two">
+                <h1>
+                    <a href="index.html">
+                        <img src="images/logo.png" alt="logoimg">
+                    </a>
+                </h1>
+            </div>
+            <div class="header_three">
+                <div class="hamburger">
+                    <input type="button" value="hamburger" id="open">
+                </div>
+                <aside id="magazinePanel" class="active">
+                    <input type="button" value="close" id="closed">
+                    <div>
+                       <nav class="gnb">
+                         <ul class='nanum'>
+                            <li>
+                                <strong class='yeon' id="active">건강 [Health]</strong>
+                                <ul>
+                                    <li><a href="mrsmagazinehealthone.html">시도 때도 없이 손이 가렵다면?<br>
+                                        <span>주부습진</span>을 의심해 보세요!</a></li>
+                                    <li><a href="mrsmagazinehealthtwo.html">건강과 다이어트 두 마리 토끼를 동시에!<br>
+                                        주부 <span>건강주스</span> 레시피</a></li>
+                                    <li><a href="mrsmagazinehealththree.html">식품 종류별로 알아보는<br>
+                                        <span>하루 섭취 권장량</span></a></li>
+                                    <li><a href="mrsmagazinehealthfour.html">당신의 <span>불안한 마음,</span><br>
+                                        지금은 괜찮은가요?</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <strong class='yeon'>육아 [Infant Care]</strong>
+                                <ul>
+                                    <li><a href="mrsmagazineinfantcareone.html">우리 아이 <span>ADHD</span> 증상,<br>
+                                        호전될 수 있을까?</a></li>
+                                    <li><a href="mrsmagazineinfantcaretwo.html"><span>아빠의 육아 참여,</span><br>
+                                        아이들에게 어떤 영향을 미칠까?</a></li>
+                                    <li><a href="mrsmagazineinfantcarethree.html">우리 아이<br>
+                                        <span>창의력</span> 키워주는 방법!</a></li>
+                                    <li><a href="mrsmagazineinfantcarefour.html">과도한 스마트폰 사용이 유발하는<br>
+                                        <span>팝콘 브레인</span>에 대해 알아보기</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <strong class='yeon'>음식 [Food]</strong>
+                                <ul>
+                                    <li><a href="mrsmagazinefoodone.html">대전 현지인이 추천하는<br>
+                                        <span>성심당 빵</span> BEST!</a></li>
+                                    <li><a href="mrsmagazinefoodtwo.html">세계 5대 <span>슈퍼푸드</span>에는<br>
+                                        어떤 것들이 있을까?</a></li>
+                                    <li><a href="mrsmagazinefoodthree.html"><span>궁합</span>이 좋은 음식<br>
+                                        나쁜 음식!</a></li>
+                                    <li><a href="mrsmagazinefoodfour.html">온 가족의 <span>제주도 먹거리</span> 여행!<br>
+                                        혼저옵서예</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <strong class='yeon'>인테리어 [Interior]</strong>
+                                <ul>
+                                    <li><a href="mrsmagazineinteriorone.html"><span>홈 인테리어소품</span><br> 
+                                        고르기 및 배치법</a></li>
+                                    <li><a href="mrsmagazineinteriortwo.html"><span>인테리어업체</span> vs <span>셀프인테리어,</span><br>
+                                        고민이 된다면?
+                                        </a></li>
+                                    <li><a href="mrsmagazineinteriorthree.html">집안을 화사하게 비춰주는<br>
+                                        <span>조명 인테리어</span></a></li>
+                                    <li><a href="mrsmagazineinteriorfour.html">나에게 알맞은<br>
+                                        <span>인테리어 스타일</span> 종류 찾고 싶다면?
+                                        </a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <strong class='yeon'>플러스+ [plus+]</strong>
+                                <ul>
+                                    <li><a href="mrsmagazineplusone.html">온 가족이 함께 체험하기 좋은<br>
+                                        전국 <span>템플스테이 명소</span> BEST 6!</a></li>
+                                    <li><a href="mrsmagazineplustwo.html">삶의 질을 높이는<br>
+                                        <span>사계절 살림</span> 노하우</a></li>
+                                    <li><a href="mrsmagazineplusthree.html"><span>반려견,</span><br>
+                                        우리가 알아야 할 사실</a></li>
+                                    <li><a href="mrsmagazineplusfour.html">가정에서 실천하는<br>
+                                        <span>환경 보호</span></a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                       </nav>
+                    </div>
+                </aside>
+            </div>
+        </div>
+    </header>
+
+    <div class="ibm" id="healthtwoContainer">
+
+        <div class="healthtitle_two">
+            <div class='jua'>
+                <div>
+                    <span>health</span>
+                    <h2>건강과 다이어트 두 마리 토끼를 동시에!<br>
+                        <span>건강 주스</span> 레시피
+                        </h2>
+                </div>
+            </div>
+        </div>
+
+        <div class="healthmain_one">
+            <div class='jua'>
+                <h2 class="health_color_two">건강과 다이어트 두 마리 토끼를 동시에!<br>
+                    <span>건강 주스 레시피</span></h2>
+                <p class="ibm">요즘 여성들은 물론, 주부들 사이에서 필수 비타민과 무기질을 섭취할 수 있는 '마시기' 주스에 대한 관심이 
+                    쏟아지고 있다. 여러 가지 이유 중 간편하게 우리 몸에 꼭 필요한 영양소를 제때 섭취할 수 있다는 점이 
+                    큰 화제를 모았던 것인데, 이번에 우리 주변에서 볼 수 있는 흔한 재료로 만든 다이어트 주스 레시피를 소개하고자 한다.</p>
+                <span><b>글 :)</b> 히스토리 블로그 '예쁘고 날씬하게'</span>
+                <span><b>사진 :)</b> 홈페이지 'pixabay', 홈페이지 'pxhere', google 이미지</span>
+            </div>
+            <img src="images/health_02_main.png" alt="healthonemain">
+        </div>
+
+        <div class="dietgroup">
+            <ul class="dietfood">
+                <li class="green_group">
+                    <h2>감자즙</h2>
+                    <p>감자즙은 중년기에 꾸준하게 섭취하게 되면, 고혈압과 심장병을 예방해 주는 데에 좋다. 
+                        푸른빛이 돌거나 싹이 난 감자의 경우, 독성이 있기 때문에 주의해서 골라주는 것이 좋다.</p>
+                    <img src="images/health_02_img01.png" alt="healthtwoimg">
+                    <div>
+                        <h3>만드는 방법 :)</h3>
+                        <p>01. 적당한 크기의 감자를 깔끔하게 씻어서 껍질을 벗겨준다.</p>
+                        <p>02. 즙내기 좋은 크기로 썰어서 착즙기에 넣어주고 즙을 내준다.</p>
+                        <p>03. 매일 아침 공복에 마셔주도록 한다.</p>
+                        <p>04. 착즙기가 없다면 껍질을 벗기지 않은 채로 깔끔하게 씻어 강판에 갈아 면포에 담아 즙을 
+                            짜주면 된다.</p>
+                        <p>05. 생강즙과 섞어서 마셔주면 특유의 비린내를 잡아준다.</p>
+                    </div>
+                </li>
+                <li class="yellow_group">
+                    <h2>초절임 콩</h2>
+                    <p>약콩을 식초에 절여서 먹게 되면, 갱년기 및 변비를 치료하는 데에 도움이 되며, 콩의 
+                        영양소라고 할 수 있는 레시틴, 사포닌, 이소플라본 등을 더욱 활발하게 도와준다. </p>
+                    <img src="images/health_02_img02.png" alt="healthtwoimg">
+                    <div>
+                        <h3>만드는 방법 :)</h3>
+                        <p>01. 약콩을 깨끗하게 물에 씻어 물기가 완전하게 빠지게 2~3시간 정도 말려준다.</p>
+                        <p>02. 밀폐용기에 콩은 3/5 정도만 담고 식초를 가득히 채워 냉장고에 보관해 준다.</p>
+                        <p>03. 3~4일 정도 지나서 콩이 식초를 빨아들여 양이 줄어들게 되면, 식초를 한 번 더 가득 
+                            부어주고 2일간 더 숙성해준다.</p>
+                        <p>04. 식초의 향과 맛으로 인해 힘들면 먹기 직전에 꿀에 섞어서 식후 7~10알 정도 먹어주면 
+                            더욱 좋다.</p>
+                    </div>
+                </li>
+                <li class="yellow_group">
+                    <h2>호박즙</h2>
+                    <p>평소에 붓기가 심한 사람들에게 좋다고 할 수 있는 호박즙은 신장의 기능을 도와서 
+                        이뇨 작용을 통해 붓기를 없애주는 데에 효과가 좋다.</p>
+                    <img src="images/health_02_img03.png" alt="healthtwoimg">
+                    <div>
+                        <h3>만드는 방법 :)</h3>
+                        <p>01. 늙은 호박을 잘 다듬어서 씨를 없애준다.</p>
+                        <p>02. 찜통에서 호박이 다 익을 때까지 쪄준다.</p>
+                        <p>03. 쪄진 호박을 면 보자기에 넣어서 즙을 짜내어 서늘한 곳에 보관해 준다.</p>
+                        <p>04. 보관하던 호박즙은 마시기 전에 따끈히 데워 하루에 한 컵씩 일주일간 마셔주도록 한다.</p>
+                    </div>
+                </li>
+                <li class="green_group">
+                    <h2>포도즙</h2>
+                    <p>체내에 쌓인 노폐물을 배출시켜 주며, 조혈작용을 하여 고혈압에 좋다. 그리고 기미와 
+                        주근깨를 없애주는 효과도 있다. </p>
+                    <img src="images/health_02_img04.png" alt="healthtwoimg">
+                    <div>
+                        <h3>만드는 방법 :)</h3>
+                        <p>01. 포도 한 송이를 알알이 따서 깨끗이 씻어준다.</p>
+                        <p>02. 포도를 냄비에 넣어주고 껍질이 하얗게 변할 때까지 은근히 계속 끓여준다.</p>
+                        <p>03. 다 끓여진 포도를 체에 밭쳐 짜주어 나오는 즙을 한 번 더 끓여주도록 한다.</p>
+                        <p>04. 담아둘 병은 깔끔하게 소독해주고 한 김 식힌 포도즙을 가득 부어서 뚜껑을 덮어 
+                            진공으로 보관해 두었다가 마실 땐 냉장 보관을 하여 마셔주면 된다.</p>
+                    </div>
+                </li>
+                <li class="green_group">
+                    <h2>양배추 생즙</h2>
+                    <p>비타민과 칼슘이 풍부해 위장병에 매우 좋으며, 피를 맑게 하고, 당뇨병에도 효과적이라고 
+                        할 수 있다. 피부미용에도 탁월하며, 변비도 해소해 주므로 꾸준하게 먹어주면 좋다.</p>
+                    <img src="images/health_02_img05.png" alt="healthtwoimg">
+                    <div>
+                        <h3>만드는 방법 :)</h3>
+                        <p>01. 양배추를 곱게 갈아 면포에 싸서 즙을 내주거나, 믹서기에 직접 갈아 착즙을 시켜준다.</p>
+                        <p>02. 양배추 특유의 향이 거슬린다면 사과즙이나 꿀과 함께 섞어 먹어주면 좋다. </p>
+                        <p>03. 당근과 레몬과 궁합이 잘 맞아 함께 즙을 내서 먹게 되면 면역력을 증진해 주고 감기를 
+                            예방하는 데에 효과가 있다.</p>
+                    </div>
+                </li>
+                <li class="yellow_group">
+                    <h2>검정콩 달인 물</h2>
+                    <p>검은콩에 들어간 제니스틴은 항암 작용을 해주며, 이소플라본이라는 식물성 화합 물질이 
+                        함유되어 여성 폐경의 증상을 완화해 준다.
+                        </p>
+                    <img src="images/health_02_img06.png" alt="healthtwoimg">
+                    <div>
+                        <h3>만드는 방법 :)</h3>
+                        <p>01. 검정콩을 깔끔하게 씻어서 물에 불려둔다.</p>
+                        <p>02. 불려놓은 검정콩과 함께 생강 4g을 함께 약한 불로 서서히 다려주도록 한다.</p>
+                        <p>03. 생강과 검정콩은 걸러내고 물만 따라내서 식혀서 차처럼 복용해 준다.</p>
+                    </div>
+                </li>
+                <li class="yellow_group">
+                    <h2>쑥갓 생즙</h2>
+                    <p>쑥갓에 함유된 마그네슘은 혈관을 청소해 주고 혈압을 내려주며, 항균 작용과 염증을 
+                        진정해 주는 작용이 있어서 간을 회복하는 데에 더 효과적이다. </p>
+                    <img src="images/health_02_img07.png" alt="healthtwoimg">
+                    <div>
+                        <h3>만드는 방법 :)</h3>
+                        <p>01. 쑥갓을 깨끗하게 씻어서 물기를 빼주고 착즙기로 즙을 짜준다.</p>
+                        <p>02. 냉장으로 보관을 해두었다가 이틀에 한 번 마셔준다.</p>
+                        <p>03. 아침 공복에 마셔주면 더욱더 효과가 좋다.</p>
+                        <p>04. 쑥갓과 미나리를 함께 즙을 내주면 더욱더 좋아진다.</p>
+                    </div>
+                </li>
+                <li class="green_group">
+                    <h2>양파 달인 물</h2>
+                    <p>양파의 유화아릴이라는 성분이 소화를 도와주며, 신진대사를 더욱 활발히 하여 
+                        혈액순환을 도와준다.</p>
+                    <img src="images/health_02_img08.png" alt="healthtwoimg">
+                    <div>
+                        <h3>만드는 방법 :)</h3>
+                        <p>01. 양파의 지저분한 겉껍질은 깔끔하게 씻어 다듬어주고, 속의 연한 껍질은 버리지 말고
+                            따로 모아둔다.</p>
+                        <p>02. 모아둔 속껍질은 차처럼 끓여서 수시로 마셔준다.</p>
+                        <p>03. 양파의 알맹이는 최대한 생으로 먹어준다.</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+    </div>
+
+    <footer class='nanum'>
+        <div class="footergroup">
+            <h2><img src="images/logo.png" alt="logoimg"></h2>
+            <span>Mrs. Magazine</span>
+            <p>© Copyright 2024 SeoHyunLim.  All Rights Reserved.</p>
+        </div>
+    </footer>
+    
+</body>
+</html>

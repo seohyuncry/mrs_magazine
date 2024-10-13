@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mrs.magazine_food_two</title>
+    <script src="js/jquery-3.7.0.min.js"></script>
+    <script src="js/bxslider.js"></script>
+    <script src="js/fitVids.js"></script>
+    <script src="js/mrsmagazine.js"></script>
+    <link rel="stylesheet" href="css/import.css">
+</head>
+<body>
+
+    <header>
+        <div>
+            <div class="header_one">
+                <form>
+                    <div>
+                        <img src="images/header_search.png" alt="searchicon">
+                    </div>
+                    <input type="search" placeholder="검색어를 입력하세요.">
+                </form>
+            </div>
+            <div class="header_two">
+                <h1>
+                    <a href="index.html">
+                        <img src="images/logo.png" alt="logoimg">
+                    </a>
+                </h1>
+            </div>
+            <div class="header_three">
+                <div class="hamburger">
+                    <input type="button" value="hamburger" id="open">
+                </div>
+                <aside id="magazinePanel" class="active">
+                    <input type="button" value="close" id="closed">
+                    <div>
+                       <nav class="gnb">
+                         <ul class='nanum'>
+                            <li>
+                                <strong class='yeon' id="active">건강 [Health]</strong>
+                                <ul>
+                                    <li><a href="mrsmagazinehealthone.html">시도 때도 없이 손이 가렵다면?<br>
+                                        <span>주부습진</span>을 의심해 보세요!</a></li>
+                                    <li><a href="mrsmagazinehealthtwo.html">건강과 다이어트 두 마리 토끼를 동시에!<br>
+                                        주부 <span>건강주스</span> 레시피</a></li>
+                                    <li><a href="mrsmagazinehealththree.html">식품 종류별로 알아보는<br>
+                                        <span>하루 섭취 권장량</span></a></li>
+                                    <li><a href="mrsmagazinehealthfour.html">당신의 <span>불안한 마음,</span><br>
+                                        지금은 괜찮은가요?</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <strong class='yeon'>육아 [Infant Care]</strong>
+                                <ul>
+                                    <li><a href="mrsmagazineinfantcareone.html">우리 아이 <span>ADHD</span> 증상,<br>
+                                        호전될 수 있을까?</a></li>
+                                    <li><a href="mrsmagazineinfantcaretwo.html"><span>아빠의 육아 참여,</span><br>
+                                        아이들에게 어떤 영향을 미칠까?</a></li>
+                                    <li><a href="mrsmagazineinfantcarethree.html">우리 아이<br>
+                                        <span>창의력</span> 키워주는 방법!</a></li>
+                                    <li><a href="mrsmagazineinfantcarefour.html">과도한 스마트폰 사용이 유발하는<br>
+                                        <span>팝콘 브레인</span>에 대해 알아보기</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <strong class='yeon'>음식 [Food]</strong>
+                                <ul>
+                                    <li><a href="mrsmagazinefoodone.html">대전 현지인이 추천하는<br>
+                                        <span>성심당 빵</span> BEST!</a></li>
+                                    <li><a href="mrsmagazinefoodtwo.html">세계 5대 <span>슈퍼푸드</span>에는<br>
+                                        어떤 것들이 있을까?</a></li>
+                                    <li><a href="mrsmagazinefoodthree.html"><span>궁합</span>이 좋은 음식<br>
+                                        나쁜 음식!</a></li>
+                                    <li><a href="mrsmagazinefoodfour.html">온 가족의 <span>제주도 먹거리</span> 여행!<br>
+                                        혼저옵서예</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <strong class='yeon'>인테리어 [Interior]</strong>
+                                <ul>
+                                    <li><a href="mrsmagazineinteriorone.html"><span>홈 인테리어소품</span><br> 
+                                        고르기 및 배치법</a></li>
+                                    <li><a href="mrsmagazineinteriortwo.html"><span>인테리어업체</span> vs <span>셀프인테리어,</span><br>
+                                        고민이 된다면?
+                                        </a></li>
+                                    <li><a href="mrsmagazineinteriorthree.html">집안을 화사하게 비춰주는<br>
+                                        <span>조명 인테리어</span></a></li>
+                                    <li><a href="mrsmagazineinteriorfour.html">나에게 알맞은<br>
+                                        <span>인테리어 스타일</span> 종류 찾고 싶다면?
+                                        </a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <strong class='yeon'>플러스+ [plus+]</strong>
+                                <ul>
+                                    <li><a href="mrsmagazineplusone.html">온 가족이 함께 체험하기 좋은<br>
+                                        전국 <span>템플스테이 명소</span> BEST 6!</a></li>
+                                    <li><a href="mrsmagazineplustwo.html">삶의 질을 높이는<br>
+                                        <span>사계절 살림</span> 노하우</a></li>
+                                    <li><a href="mrsmagazineplusthree.html"><span>반려견,</span><br>
+                                        우리가 알아야 할 사실</a></li>
+                                    <li><a href="mrsmagazineplusfour.html">가정에서 실천하는<br>
+                                        <span>환경 보호</span></a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                       </nav>
+                    </div>
+                </aside>
+            </div>
+        </div>
+    </header>
+
+    <div id="foodtwoContainer" class="ibm">
+
+        <div class="food_main_two">
+            <div class="first_food">
+                <strong class='black'>Food</strong>
+            <h2 class='black'>세계 5대 <span>슈퍼푸드</span>에는<br>
+                어떤 것들이 있을까?</h2>
+                <span><b>글.</b> 히스토리 블로그 'BOOK REVIEW' / <b>사진.</b> google 이미지, 홈페이지 'pxhere'</span>
+            </div>
+                <div class="second_food">
+                    <p>요즘 현대인들이 많이 궁금해한다는 슈퍼푸드! 수명이 점점 늘어나게 되면서 건강에 대한 관심도 높아지고 있는 만큼 건강을 챙기는
+                        데에 도움이 되는 먹거리에 대한 관심도 커지고 있다. 이번에는 세계 5대 슈퍼푸드의 종류 및 효능, 효과에 대해 알아보도록 하자.</p>
+                    <h3>슈퍼푸드란?</h3>
+                    <p>간단히 말하자면, 영양이 풍부하고 나쁜 콜레스테롤은 함유하고 있지 않거나 음식 첨가물의 독성을 해독하여 우리 몸에 면역력을 
+                        증가시켜 노화를 늦춰주는 식품을 의미한다. 선정 조건으로는 각종 영양소가 풍부하고, 콜레스테롤이 적은 식품이다. 그리고 인체에 
+                        쌓인 독소를 해독하고, 활성산소를 없애주는 항산화 작용을 하는 식품으로써 면역력을 증가시키고 노화를 억제하는 식품이라는 
+                        조건을 충족해야 선정될 수 있다.
+                        </p>
+                </div>
+                <img src="images/food_02_main.png" alt="foodmainimg">
+        </div>
+
+        <div class="superfoodgroup">
+            <ul>
+                <li>
+                    <img src="images/food_02_img01.png" alt="foodimg">
+                    <div>
+                        <h2>프로바이오틱스로 잘 알려진<br>
+                            <span class="yeon">요구르트</span></h2>
+                        <p>단백질과 칼슘, 비타민 B2와 B12, 그리고 프로바이오틱스로 알려진 유익한 박테리아의 풍부한 공급원인 
+                            요구르트! 요구르트에 들어간 프로바이오틱스는 건강한 장내 세균의 성장을 촉진해 주고, 해로운 장내 세균의 
+                            성장을 감소시켜 장내 건강을 향상하는 데에 도움을 준다. 그리고 면역 체계 기능을 지원하고 감염의 위험을
+                            줄여준다. 무엇보다 뼈 건강에 중요한 역할을 하며, 골다공증과 골절의 위험을 줄여주는 데에 도움을 주는 
+                            칼슘의 좋은 공급원으로 알려져 있다. 일부 연구는 요구르트를 섭취하는 것이 포만감을 증가시키며, 칼로리 
+                            섭취를 줄여 체중 감소를 촉진하고 신체 구성을 개선해 주는 데에 도움이 된다고 전한다. 요구르트는 
+                            간식으로 스스로 섭취하거나 스무디, 딥, 드레싱과 같은 다양한 다른 요리에 사용될 수 있다.</p>
+                    </div>
+                </li>
+                <li>
+                    <img src="images/food_02_img02.png" alt="foodimg">
+                    <div>
+                        <h2>유익한 화합물들이 풍부한<br>
+                            <span class="yeon">올리브유</span></h2>
+                        <p>올리브 오일은 단일 불포화 지방산, 산화 방지제, 다른 유익한 화합물들이 풍부한 올리브 나무의 열매에서 
+                            추출한 기름의 한 종류이다. 혈압과 콜레스테롤의 수치를 낮춰주고, 염증을 줄이고, 혈관 기능을 향상하여 
+                            심장병의 위험을 줄여준다. 올리브 오일의 산화 방지제는 인지 기능을 향상해 주고 나이와 관련된 인지 기능 
+                            저하의 위험을 줄이는 데에 도움이 된다. 또한, 암과 관절염과 같은 만성 질환의 위험을 줄여주는 데에 도움을 
+                            주는 항염증성을 가지고 있다. 그리고 잠재적으로 피부암과 조기 노화의 위험을 줄여주고, 활성산소와 태양 
+                            노출로 인한 손상으로부터 피부를 보호하는 데에 도움이 된다. 올리브 오일은 샐러드드레싱, 식용유 혹은 
+                            조미료와 같은 다양한 형태로 소비될 수 있다.</p>
+                    </div>
+                </li>
+                <li>
+                    <img src="images/food_02_img03.png" alt="foodimg">
+                    <div>
+                        <h2>한국의 전통 발효음식<br>
+                            <span class="yeon">김치</span></h2>
+                        <p>배추와 다양한 채소와 양념으로 만든 한국의 전통 발효 음식인 김치는 비타민과 미네랄, 섬유질, 그리고 
+                            항산화와 항염증성을 가진 화합물을 포함하고 있으며, 유익한 박테리아가 풍부하다. 김치에 들어간 
+                            프로바이오틱스와 다른 유익한 화합물들은 면역체계의 기능을 지원하고 감염의 위험을 줄이는 데에 도움이 
+                            된다. 또한, 몇몇 연구에 의하면 김치의 섭취가 항산화제와 다른 유익한 화합물의 존재로 인한 위암과 대장암 
+                            등의 특정 종류의 암의 위험을 줄이는 데에 도움이 된다고 한다. 그리고 포만감을 증가시키고 칼로리 섭취를 
+                            줄임으로써 체중을 줄여주고 신체 구성을 개선하는 데에 도움이 될 수 있다고 제안했다는 결과가 있다. 
+                            김치는 반찬으로 스스로 먹을 수 있으며, 찌개, 국, 볶음과 같은 다양한 다른 요리에도 다양하게 사용이 된다.</p>
+                    </div>
+                </li>
+                <li>
+                    <img src="images/food_02_img04.png" alt="foodimg">
+                    <div>
+                        <h2>콩을 발효시켜 만든<br>
+                            <span class="yeon">낫토</span></h2>
+                        <p>낫토는 단백질과 섬유질, 비타민, 미네랄이 풍부하고 낫토키나아제라고 불리는 독특한 효소도 함유된 콩을 
+                            발효시켜 만든 일본의 전통음식이다. 낫토는 낫토키네이스의 존재로 인하여 혈압을 낮춰주고, 콜레스테롤 
+                            수치를 낮추며, 혈관 기능을 향상하여 심장병의 위험을 줄여준다. 그리고 뼈 건강에 중요한 역할을 하고 
+                            골절과 골다공증의 위험을 줄이는 데에 도움을 주는 비타민 K2의 좋은 공급원이다. 낫토에 들어간 섬유질은 
+                            규칙적인 배변을 촉진해 주고 변비의 위험을 줄여 소화기 건강을 향상하는 데에 도움이 된다. 낫토를 만드는 
+                            데에 사용되는 발효 과정은 신체가 흡수하고, 사용하기 쉽게 하며 특정 영양소의 생물학적 가용성을 향상해 
+                            준다. 낫토는 주로 일본의 아침 식사로 소비되고, 간장이나 겨자, 파와 같은 조미료와 함께 밥 위에 올려서 
+                            먹곤 한다.</p>
+                    </div>
+                </li>
+                <li>
+                    <img src="images/food_02_img05.png" alt="foodimg">
+                    <div>
+                        <h2>비타민과 미네랄의 공급원<br>
+                            <span class="yeon">렌틸콩</span></h2>
+                        <p>렌틸콩은 단백질과 섬유질, 철분, 엽산, 칼륨을 포함한 다양한 비타민과 미네랄의 풍부한 공급원이다. 
+                            단백질이 지방에 비해 엄청 많이 함유되어 대표적인 저지방 고단백 식품이다. 이러한 점이 지방 대사를 
+                            촉진하고 근육량을 증가시켜 다이어트에 도움이 된다. 그러나 열량은 낮지 않아 양을 조절해 섭취해야 한다. 
+                            그리고 렌틸콩에는 다른 식품에서는 찾아보기 힘들 정도로 많은 양의 식이섬유가 있다. 이는 장내 운동을 
+                            활발하게 하여 변비를 예방하고 치료하는 데에 도움이 된다. 무엇보다 임산부들에게 꼭 필요한 성분인 
+                            철분과 엽산이 풍부하다. 또한, 렌틸콩은 높은 섬유 함량과 낮은 혈당 지수 때문에 혈당 조절을 개선하고 
+                            2형 당뇨병의 위험을 줄이는 데에 도움이 된다. 주로 수프나 스튜, 샐러드 또는 반찬과 같은 다양한 형태로 
+                            섭취할 수가 있다.</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+
+    </div>
+
+    <footer class='nanum'>
+        <div class="footergroup">
+            <h2><img src="images/logo.png" alt="logoimg"></h2>
+            <span>Mrs. Magazine</span>
+            <p>© Copyright 2024 SeoHyunLim.  All Rights Reserved.</p>
+        </div>
+    </footer>
+    
+</body>
+</html>

@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mrs.magazine_main</title>
+    <script src="js/jquery-3.7.0.min.js"></script>
+    <script src="js/bxslider.js"></script>
+    <script src="js/fitVids.js"></script>
+    <script src="js/mrsmagazine.js"></script>
+    <link rel="stylesheet" href="css/import.css">
+</head>
+<body>
+
+    <header>
+        <div>
+            <div class="header_one">
+                <form>
+                    <div>
+                        <img src="images/header_search.png" alt="searchicon">
+                    </div>
+                    <input type="search" placeholder="검색어를 입력하세요.">
+                </form>
+            </div>
+            <div class="header_two">
+                <h1>
+                    <a href="index.html">
+                        <img src="images/logo.png" alt="logoimg">
+                    </a>
+                </h1>
+            </div>
+            <div class="header_three">
+                <div class="hamburger">
+                    <input type="button" value="hamburger" id="open">
+                </div>
+                <aside id="magazinePanel" class="active">
+                    <input type="button" value="close" id="closed">
+                    <div>
+                       <nav class="gnb">
+                         <ul class='nanum'>
+                            <li>
+                                <strong class='yeon' id="active">건강 [Health]</strong>
+                                <ul>
+                                    <li><a href="mrsmagazinehealthone.html">시도 때도 없이 손이 가렵다면?<br>
+                                        <span>주부습진</span>을 의심해 보세요!</a></li>
+                                    <li><a href="mrsmagazinehealthtwo.html">건강과 다이어트 두 마리 토끼를 동시에!<br>
+                                        주부 <span>건강주스</span> 레시피</a></li>
+                                    <li><a href="mrsmagazinehealththree.html">식품 종류별로 알아보는<br>
+                                        <span>하루 섭취 권장량</span></a></li>
+                                    <li><a href="mrsmagazinehealthfour.html">당신의 <span>불안한 마음,</span><br>
+                                        지금은 괜찮은가요?</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <strong class='yeon'>육아 [Infant Care]</strong>
+                                <ul>
+                                    <li><a href="mrsmagazineinfantcareone.html">우리 아이 <span>ADHD</span> 증상,<br>
+                                        호전될 수 있을까?</a></li>
+                                    <li><a href="mrsmagazineinfantcaretwo.html"><span>아빠의 육아 참여,</span><br>
+                                        아이들에게 어떤 영향을 미칠까?</a></li>
+                                    <li><a href="mrsmagazineinfantcarethree.html">우리 아이<br>
+                                        <span>창의력</span> 키워주는 방법!</a></li>
+                                    <li><a href="mrsmagazineinfantcarefour.html">과도한 스마트폰 사용이 유발하는<br>
+                                        <span>팝콘 브레인</span>에 대해 알아보기</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <strong class='yeon'>음식 [Food]</strong>
+                                <ul>
+                                    <li><a href="mrsmagazinefoodone.html">대전 현지인이 추천하는<br>
+                                        <span>성심당 빵</span> BEST!</a></li>
+                                    <li><a href="mrsmagazinefoodtwo.html">세계 5대 <span>슈퍼푸드</span>에는<br>
+                                        어떤 것들이 있을까?</a></li>
+                                    <li><a href="mrsmagazinefoodthree.html"><span>궁합</span>이 좋은 음식<br>
+                                        나쁜 음식!</a></li>
+                                    <li><a href="mrsmagazinefoodfour.html">온 가족의 <span>제주도 먹거리</span> 여행!<br>
+                                        혼저옵서예</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <strong class='yeon'>인테리어 [Interior]</strong>
+                                <ul>
+                                    <li><a href="mrsmagazineinteriorone.html"><span>홈 인테리어소품</span><br> 
+                                        고르기 및 배치법</a></li>
+                                    <li><a href="mrsmagazineinteriortwo.html"><span>인테리어업체</span> vs <span>셀프인테리어,</span><br>
+                                        고민이 된다면?
+                                        </a></li>
+                                    <li><a href="mrsmagazineinteriorthree.html">집안을 화사하게 비춰주는<br>
+                                        <span>조명 인테리어</span></a></li>
+                                    <li><a href="mrsmagazineinteriorfour.html">나에게 알맞은<br>
+                                        <span>인테리어 스타일</span> 종류 찾고 싶다면?
+                                        </a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <strong class='yeon'>플러스+ [plus+]</strong>
+                                <ul>
+                                    <li><a href="mrsmagazineplusone.html">온 가족이 함께 체험하기 좋은<br>
+                                        전국 <span>템플스테이 명소</span> BEST 6!</a></li>
+                                    <li><a href="mrsmagazineplustwo.html">삶의 질을 높이는<br>
+                                        <span>사계절 살림</span> 노하우</a></li>
+                                    <li><a href="mrsmagazineplusthree.html"><span>반려견,</span><br>
+                                        우리가 알아야 할 사실</a></li>
+                                    <li><a href="mrsmagazineplusfour.html">가정에서 실천하는<br>
+                                        <span>환경 보호</span></a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                       </nav>
+                    </div>
+                </aside>
+            </div>
+        </div>
+    </header>
+
+    <div id="plusfourContainer" class="ibm">
+
+        <div class="plus_title_four">
+            <div>background</div>
+        </div>
+
+        <div class="plus_main_four">
+            <div>
+                <div>
+                    <strong>plus+</strong>
+                </div>
+                <h2>가정에서 실천하는<br>
+                    <span>환경 보호</span></h2>
+                <span><b>글_ </b>네이버 블로그 '별거 아닌 하루의 기록', 네이버 블로그 '울산중심 행복남구' 외</span>
+                <span><b>사진_ </b>홈페이지 'pxhere', google 이미지</span>
+                <p>환경보호는 이제 선택이 아닌 필수이다. 우리가 사는 지구는 점점 더 많은 위협에 직면해 있고, 이렇게 생기는 
+                    문제는 개인의 노력으로도 충분히 해결이 가능하다. 가정에서도 환경 보호를 실천할 수 있는 만큼 
+                    몇 가지를 모아보았다.</p>
+            </div>
+        </div>
+
+        <div class="food_cardnews">
+            <ul>
+                <li><img src="images/plus_04_cardnews_img01.png" alt="plusfourcardnews"></li>
+                <li><img src="images/plus_04_cardnews_img02.png" alt="plusfourcardnews"></li>
+                <li><img src="images/plus_04_cardnews_img03.png" alt="plusfourcardnews"></li>
+                <li><img src="images/plus_04_cardnews_img04.png" alt="plusfourcardnews"></li>
+                <li><img src="images/plus_04_cardnews_img05.png" alt="plusfourcardnews"></li>
+                <li><img src="images/plus_04_cardnews_img06.png" alt="plusfourcardnews"></li>
+                <li><img src="images/plus_04_cardnews_img07.png" alt="plusfourcardnews"></li>
+            </ul>
+        </div>
+
+    </div>
+
+    <footer class='nanum'>
+        <div class="footergroup">
+            <h2><img src="images/logo.png" alt="logoimg"></h2>
+            <span>Mrs. Magazine</span>
+            <p>© Copyright 2024 SeoHyunLim.  All Rights Reserved.</p>
+        </div>
+    </footer>
+    
+</body>
+</html>

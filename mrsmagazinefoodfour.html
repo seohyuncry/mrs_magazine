@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mrs.magazine_food_four</title>
+    <script src="js/jquery-3.7.0.min.js"></script>
+    <script src="js/bxslider.js"></script>
+    <script src="js/fitVids.js"></script>
+    <script src="js/mrsmagazine.js"></script>
+    <link rel="stylesheet" href="css/import.css">
+</head>
+<body>
+
+    <header>
+        <div>
+            <div class="header_one">
+                <form>
+                    <div>
+                        <img src="images/header_search.png" alt="searchicon">
+                    </div>
+                    <input type="search" placeholder="검색어를 입력하세요.">
+                </form>
+            </div>
+            <div class="header_two">
+                <h1>
+                    <a href="index.html">
+                        <img src="images/logo.png" alt="logoimg">
+                    </a>
+                </h1>
+            </div>
+            <div class="header_three">
+                <div class="hamburger">
+                    <input type="button" value="hamburger" id="open">
+                </div>
+                <aside id="magazinePanel" class="active">
+                    <input type="button" value="close" id="closed">
+                    <div>
+                       <nav class="gnb">
+                         <ul class='nanum'>
+                            <li>
+                                <strong class='yeon' id="active">건강 [Health]</strong>
+                                <ul>
+                                    <li><a href="mrsmagazinehealthone.html">시도 때도 없이 손이 가렵다면?<br>
+                                        <span>주부습진</span>을 의심해 보세요!</a></li>
+                                    <li><a href="mrsmagazinehealthtwo.html">건강과 다이어트 두 마리 토끼를 동시에!<br>
+                                        주부 <span>건강주스</span> 레시피</a></li>
+                                    <li><a href="mrsmagazinehealththree.html">식품 종류별로 알아보는<br>
+                                        <span>하루 섭취 권장량</span></a></li>
+                                    <li><a href="mrsmagazinehealthfour.html">당신의 <span>불안한 마음,</span><br>
+                                        지금은 괜찮은가요?</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <strong class='yeon'>육아 [Infant Care]</strong>
+                                <ul>
+                                    <li><a href="mrsmagazineinfantcareone.html">우리 아이 <span>ADHD</span> 증상,<br>
+                                        호전될 수 있을까?</a></li>
+                                    <li><a href="mrsmagazineinfantcaretwo.html"><span>아빠의 육아 참여,</span><br>
+                                        아이들에게 어떤 영향을 미칠까?</a></li>
+                                    <li><a href="mrsmagazineinfantcarethree.html">우리 아이<br>
+                                        <span>창의력</span> 키워주는 방법!</a></li>
+                                    <li><a href="mrsmagazineinfantcarefour.html">과도한 스마트폰 사용이 유발하는<br>
+                                        <span>팝콘 브레인</span>에 대해 알아보기</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <strong class='yeon'>음식 [Food]</strong>
+                                <ul>
+                                    <li><a href="mrsmagazinefoodone.html">대전 현지인이 추천하는<br>
+                                        <span>성심당 빵</span> BEST!</a></li>
+                                    <li><a href="mrsmagazinefoodtwo.html">세계 5대 <span>슈퍼푸드</span>에는<br>
+                                        어떤 것들이 있을까?</a></li>
+                                    <li><a href="mrsmagazinefoodthree.html"><span>궁합</span>이 좋은 음식<br>
+                                        나쁜 음식!</a></li>
+                                    <li><a href="mrsmagazinefoodfour.html">온 가족의 <span>제주도 먹거리</span> 여행!<br>
+                                        혼저옵서예</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <strong class='yeon'>인테리어 [Interior]</strong>
+                                <ul>
+                                    <li><a href="mrsmagazineinteriorone.html"><span>홈 인테리어소품</span><br> 
+                                        고르기 및 배치법</a></li>
+                                    <li><a href="mrsmagazineinteriortwo.html"><span>인테리어업체</span> vs <span>셀프인테리어,</span><br>
+                                        고민이 된다면?
+                                        </a></li>
+                                    <li><a href="mrsmagazineinteriorthree.html">집안을 화사하게 비춰주는<br>
+                                        <span>조명 인테리어</span></a></li>
+                                    <li><a href="mrsmagazineinteriorfour.html">나에게 알맞은<br>
+                                        <span>인테리어 스타일</span> 종류 찾고 싶다면?
+                                        </a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <strong class='yeon'>플러스+ [plus+]</strong>
+                                <ul>
+                                    <li><a href="mrsmagazineplusone.html">온 가족이 함께 체험하기 좋은<br>
+                                        전국 <span>템플스테이 명소</span> BEST 6!</a></li>
+                                    <li><a href="mrsmagazineplustwo.html">삶의 질을 높이는<br>
+                                        <span>사계절 살림</span> 노하우</a></li>
+                                    <li><a href="mrsmagazineplusthree.html"><span>반려견,</span><br>
+                                        우리가 알아야 할 사실</a></li>
+                                    <li><a href="mrsmagazineplusfour.html">가정에서 실천하는<br>
+                                        <span>환경 보호</span></a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                       </nav>
+                    </div>
+                </aside>
+            </div>
+        </div>
+    </header>
+
+    <div id="foodfourContainer" class="ibm">
+
+        <div class="foodwrap">
+            <div class="food_main_one">
+                <div>
+                    <strong class='black'>Food</strong>
+                <h2 class='black'>온 가족의 <span>제주도 먹거리</span> 여행!<br>
+                    혼저옵서예</h2>
+                    <span><b>글.</b> 홈페이지 '롤린 조인트', 히스토리 블로그 '코짜남의 여행 정보' / <b>사진.</b> google 이미지</span>
+                </div>
+                    <p>온 가족이 같이 즐겁게 갈 수 있는 국내 여행지에는 어디가 있을까? 여러 여행지 중에서 손꼽히는 곳은 바로 제주도일 것이다. 
+                        제주도에서만 맛볼 수 있는 맛있으면서 독특한 제주도 먹거리 음식들이 꽤 있다. 여행을 계획하여 제주도 먹거리를 찾고 있는 
+                        가족들에게 도움이 되길 바란다.</p>
+                    <img src="images/food_04_main.png" alt="foodmainimg">
+            </div>
+    
+            <div class="restaurant">
+                <img src="images/food_04_icon01.png" alt="foodfouricon">
+                <h2 class="food_one_h">일본 라멘 느낌이 나는</h2>
+                    <span class="food_one_s">고기국수</span>
+                <p>고기국수는 제주도에서만 맛볼 수 있는 음식 중 하나로 손꼽힌다. 돼지고기의 수육이 올라가서 고기국수라고 
+                    불리는데, 돼지 뼈를 우린 국물을 이용해서 약간 일본 라멘 느낌도 난다. 제주도민들 사이에서 유명하므로 
+                    제주도에는 고기국수 맛집이 많다.</p>
+                <div>
+                   <div>
+                      <img src="images/food_04_icon_orangeinfo.png" alt="foodorange">
+                      <h3>고기국수 맛집<br>
+                        <span>자매국수</span></h3>
+                        <p>제주시에서 유명한 고기국수 맛집 양대 산맥인 자매 국수를 소개한다. 건물을 새로 지을 만큼 엄청난 인기를 
+                            유지하고 있는 곳으로서, 고기국수뿐 아니라 비빔국수, 돔베고기, 물만두를 함께 판매하고 있다. 비교적 
+                            주차시설이 편하고 기계를 통해 대기표를 받아 편리한 곳이다.</p>
+                        <div class="orange_group">
+                            <p><b>고기국수 : </b>9,000원</p>
+                            <p><b>제주 제주시 탑공로 11길 6</b></p>
+                            <p><b>운영시간 :</b> 09:00 ~ 18:00</p>
+                            <p><b>휴식시간 :</b> 14:20 ~ 16:00</p>
+                            <p><b>매주 수요일 휴무</b></p>
+                        </div>
+                   </div>
+                  <div class="food_slide">
+                    <ul class="food_famous_slide">
+                        <li><img src="images/food_04_slide_01_01.png" alt="foodslideone"></li>
+                        <li><img src="images/food_04_slide_01_02.png" alt="foodslideone"></li>
+                     </ul>
+                  </div>
+                </div>
+            </div>
+    
+            <div class="restaurant">
+                <img src="images/food_04_icon02.png" alt="foodfouricon">
+                <h2 class="food_two_h">빛나는 은색을 띠는</h2>
+                <span class="food_two_s">갈치</span>
+                <p>갈치는 서울에서도 충분히 먹을 수 있는 음식이지만, 우리가 먹는 일반 자갈치와 다르다. 제주도의 자갈치는 
+                    그물로 잡아서 살이 다 까져 갈색 빛을 띠지만, 제주도의 은갈치는 살에 상처가 없어서 살이 은색을 띤다고 
+                    한다. 그래서 더욱 싱싱하고 맛있는 것으로 유명하다.
+                    </p>
+                <div>
+                   <div>
+                    <img src="images/food_04_icon_blueinfo.png" alt="foodorange">
+                      <h3>갈치 맛집<br>
+                        <span>춘심이네 본점</span></h3>
+                        <p>온 가족이 먹기 좋은 갈치, 통갈치 요리 전문점인 춘심이네를 소개한다. 갈치 한 마리를 통째로 구워서 
+                            제공되는 갈치구이 전문점으로서, 가족 단위 여행객들이 이용하기 좋다. 갈치조림 또한 뼈 없이 제공되어 
+                            아이들도 먹을 수 있게 제공된다. 뼈를 모두 발라주기 때문에 아이들이 먹기에도 편하다. 아이들과 
+                            방문하는데 나도 편하게 먹고 싶은 분들께 권한다.</p>
+                        <div class="blue_group">
+                            <p><b>4인 세트 통갈치구이+은갈치 조림 :</b> 149,000원</p>
+                            <p><b>제주 서귀포시 안덕면 창천 중앙로 24번 길 16</b></p>
+                            <p><b>운영시간 :</b> 10:30 ~ 20:00</p>
+                            <p><b>휴식시간 :</b> 15:30 ~ 17:00</p>
+                        </div>
+                   </div>
+                   <div class="food_slide">
+                    <ul class="food_famous_slide">
+                        <li><img src="images/food_04_slide_02_01.png" alt="foodslideone"></li>
+                        <li><img src="images/food_04_slide_02_02.png" alt="foodslideone"></li>
+                     </ul>
+                  </div>
+                </div>
+            </div>
+    
+            <div class="restaurant">
+                <img src="images/food_04_icon03.png" alt="foodfouricon">
+                <h2 class="food_one_h">푸짐하고 가격도 좋은</h2>
+                <span class="food_one_s">전복 뚝배기</span>
+                <p>대부분 제주도 음식이 서울에서도 충분히 먹을 수 있지만, 전복이나 해물 같은 것들은 배에서 싱싱하게 잡아서 
+                    바로 상에 올라오는 특혜를 누릴 수가 있다. 그중 하나가 바로 전복 뚝배기이다. 서울에서는 전복뚝배기를 
+                    시키면 전복이 2개 나오는데, 제주도에서는 5개가 나올 만큼 푸근한 인심을 느낄 수 있다. </p>
+                <div>
+                   <div>
+                    <img src="images/food_04_icon_orangeinfo.png" alt="foodorange">
+                      <h3>전복 뚝배기 맛집<br>
+                        <span>한라전복</span></h3>
+                        <p>이번에는 대정읍, 모슬포항 근처의 전복뚝배기 맛집을 소개하고자 한다. 바로 한라 전복이라는 곳인데, 
+                            전복전문점으로서 신선한 전복이 들어간 전복뚝배기가 맛있는 곳이다. 작은 식당으로 가성비가 좋은 것도 
+                            특징이며, 전복을 좋아한다면 꼭 가볼 것을 권한다. 이곳에서는 뚝배기뿐 아니라 전복죽, 돌솥밥, 물회, 라면, 
+                            버터구이, 전복회 등 다양한 전복 음식을 맛볼 수 있다.</p>
+                        <div class="orange_group">
+                            <p><b>전복 뚝배기 :</b> 12,000원</p>
+                            <p><b>제주 서귀포시 대정읍 대한로 33</b></p>
+                            <p><b>운영시간 :</b> 09:00 ~ 20:00</p>
+                            <p><b>매주 목요일 휴무</b></p>
+                        </div>
+                   </div>
+                   <div class="food_slide">
+                    <ul class="food_famous_slide">
+                        <li><img src="images/food_04_slide_03_01.png" alt="foodslideone"></li>
+                        <li><img src="images/food_04_slide_03_02.png" alt="foodslideone"></li>
+                     </ul>
+                  </div>
+                </div>
+            </div>
+    
+            <div class="restaurant">
+                <img src="images/food_04_icon04.png" alt="foodfouricon">
+                <h2 class="food_two_h">바다 고동의 제주 방언 보말로 만든</h2>
+                <span class="food_two_s">보말 칼국수</span>
+                <p>보말칼국수는 생소하게 들릴 수 있으나 제주도에서만 먹을 수 있는 음식 중 하나이다. 보말은 해초를 먹고 
+                    자라는 바다 고동의 제주 방언인데, 이런 보말을 넣고 만든 칼국수를 보말 칼국수라고 한다. 그리고 이 보말은 
+                    죽으로 만들면 보말죽이 된다. 속이 든든하고 칼칼한 맛이 특징이며, 아침 해장이나 이른 점심으로 많이 먹는다.</p>
+                <div>
+                   <div>
+                    <img src="images/food_04_icon_blueinfo.png" alt="foodorange">
+                      <h3>보말 칼국수 맛집<br>
+                        <span>형제섬 보말칼국수</span></h3>
+                        <p>이번에 소개할 보말칼국수 맛집은 송악산과 산방산 보말칼국수 맛집인 형제섬 보말칼국수이다. 직접 수타 
+                            반죽한 보말칼국수와 전복 내장이 듬뿍 들어간 보말죽이 맛있는 곳으로, 별미로는 매생이전이 있다. 다양한 
+                            메뉴를 세트 구성으로 즐길 수 있으며, 혼밥 세트도 판매하고 있어 좋은 곳이다.</p>
+                         <div class="blue_group">
+                            <p><b>보말 전복 칼국수 :</b> 10,000원</p>
+                            <p><b>서귀포시 대정읍 형제 해안로 318 1층</b></p>
+                            <p><b>운영시간 :</b> 07:00 ~ 16:00</p>
+                            <p><b>매주 화요일 휴무</b></p>
+                        </div>
+                   </div>
+                   <div class="food_slide">
+                    <ul class="food_famous_slide">
+                        <li><img src="images/food_04_slide_04_01.png" alt="foodslideone"></li>
+                        <li><img src="images/food_04_slide_04_02.png" alt="foodslideone"></li>
+                     </ul>
+                  </div>
+                </div>
+            </div>
+    
+        </div>
+
+
+    </div>
+
+    <footer class='nanum'>
+        <div class="footergroup">
+            <h2><img src="images/logo.png" alt="logoimg"></h2>
+            <span>Mrs. Magazine</span>
+            <p>© Copyright 2024 SeoHyunLim.  All Rights Reserved.</p>
+        </div>
+    </footer>
+    
+</body>
+</html>

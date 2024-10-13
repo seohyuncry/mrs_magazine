@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mrs.magazine_interior_three</title>
+    <script src="js/jquery-3.7.0.min.js"></script>
+    <script src="js/bxslider.js"></script>
+    <script src="js/fitVids.js"></script>
+    <script src="js/mrsmagazine.js"></script>
+    <link rel="stylesheet" href="css/import.css">
+</head>
+<body>
+
+    <header>
+        <div>
+            <div class="header_one">
+                <form>
+                    <div>
+                        <img src="images/header_search.png" alt="searchicon">
+                    </div>
+                    <input type="search" placeholder="검색어를 입력하세요.">
+                </form>
+            </div>
+            <div class="header_two">
+                <h1>
+                    <a href="index.html">
+                        <img src="images/logo.png" alt="logoimg">
+                    </a>
+                </h1>
+            </div>
+            <div class="header_three">
+                <div class="hamburger">
+                    <input type="button" value="hamburger" id="open">
+                </div>
+                <aside id="magazinePanel" class="active">
+                    <input type="button" value="close" id="closed">
+                    <div>
+                       <nav class="gnb">
+                         <ul class='nanum'>
+                            <li>
+                                <strong class='yeon' id="active">건강 [Health]</strong>
+                                <ul>
+                                    <li><a href="mrsmagazinehealthone.html">시도 때도 없이 손이 가렵다면?<br>
+                                        <span>주부습진</span>을 의심해 보세요!</a></li>
+                                    <li><a href="mrsmagazinehealthtwo.html">건강과 다이어트 두 마리 토끼를 동시에!<br>
+                                        주부 <span>건강주스</span> 레시피</a></li>
+                                    <li><a href="mrsmagazinehealththree.html">식품 종류별로 알아보는<br>
+                                        <span>하루 섭취 권장량</span></a></li>
+                                    <li><a href="mrsmagazinehealthfour.html">당신의 <span>불안한 마음,</span><br>
+                                        지금은 괜찮은가요?</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <strong class='yeon'>육아 [Infant Care]</strong>
+                                <ul>
+                                    <li><a href="mrsmagazineinfantcareone.html">우리 아이 <span>ADHD</span> 증상,<br>
+                                        호전될 수 있을까?</a></li>
+                                    <li><a href="mrsmagazineinfantcaretwo.html"><span>아빠의 육아 참여,</span><br>
+                                        아이들에게 어떤 영향을 미칠까?</a></li>
+                                    <li><a href="mrsmagazineinfantcarethree.html">우리 아이<br>
+                                        <span>창의력</span> 키워주는 방법!</a></li>
+                                    <li><a href="mrsmagazineinfantcarefour.html">과도한 스마트폰 사용이 유발하는<br>
+                                        <span>팝콘 브레인</span>에 대해 알아보기</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <strong class='yeon'>음식 [Food]</strong>
+                                <ul>
+                                    <li><a href="mrsmagazinefoodone.html">대전 현지인이 추천하는<br>
+                                        <span>성심당 빵</span> BEST!</a></li>
+                                    <li><a href="mrsmagazinefoodtwo.html">세계 5대 <span>슈퍼푸드</span>에는<br>
+                                        어떤 것들이 있을까?</a></li>
+                                    <li><a href="mrsmagazinefoodthree.html"><span>궁합</span>이 좋은 음식<br>
+                                        나쁜 음식!</a></li>
+                                    <li><a href="mrsmagazinefoodfour.html">온 가족의 <span>제주도 먹거리</span> 여행!<br>
+                                        혼저옵서예</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <strong class='yeon'>인테리어 [Interior]</strong>
+                                <ul>
+                                    <li><a href="mrsmagazineinteriorone.html"><span>홈 인테리어소품</span><br> 
+                                        고르기 및 배치법</a></li>
+                                    <li><a href="mrsmagazineinteriortwo.html"><span>인테리어업체</span> vs <span>셀프인테리어,</span><br>
+                                        고민이 된다면?
+                                        </a></li>
+                                    <li><a href="mrsmagazineinteriorthree.html">집안을 화사하게 비춰주는<br>
+                                        <span>조명 인테리어</span></a></li>
+                                    <li><a href="mrsmagazineinteriorfour.html">나에게 알맞은<br>
+                                        <span>인테리어 스타일</span> 종류 찾고 싶다면?
+                                        </a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <strong class='yeon'>플러스+ [plus+]</strong>
+                                <ul>
+                                    <li><a href="mrsmagazineplusone.html">온 가족이 함께 체험하기 좋은<br>
+                                        전국 <span>템플스테이 명소</span> BEST 6!</a></li>
+                                    <li><a href="mrsmagazineplustwo.html">삶의 질을 높이는<br>
+                                        <span>사계절 살림</span> 노하우</a></li>
+                                    <li><a href="mrsmagazineplusthree.html"><span>반려견,</span><br>
+                                        우리가 알아야 할 사실</a></li>
+                                    <li><a href="mrsmagazineplusfour.html">가정에서 실천하는<br>
+                                        <span>환경 보호</span></a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                       </nav>
+                    </div>
+                </aside>
+            </div>
+        </div>
+    </header>
+
+    <div id="interiorthreeContainer" class="ibm">
+
+        <div class="interior_main_three">
+            <div class="jua">
+                <strong>Interior</strong>
+                <h2>집안을 화사하게 비춰주는<br>
+                    조명 인테리어</h2>
+                <span><b>글</b> 잡지 '여성조선', 네이버 블로그 'HAUS-B 인테리어', 네이버 블로그 'LAPIN(라팽 인테리어필름)'외</span>
+                <span><b>사진</b> google 이미지</span>
+                <p class="ibm">실내조명은 어둠을 밝혀준다는 편의성이 가장 큰 목적이지만, 전체적인 인테리어 파트에서 본다면 빛과 그림자를 
+                    이용하여 공간의 분위기를 조절해 주는 중요역할을 한다. 왜냐하면 빛의 색상과 밝기, 빛의 방향에 따라 실내의 
+                    분위기가 매우 달라지기 때문이다. 이번에 다뤄볼 주제는 조명 인테리어에 관해서이다.</p>
+            </div>
+        </div>
+
+        <div class="light_law">
+            <div>
+                <img src="images/interior_03_icon_01.png" alt="interiorthreeicon">
+                <h2>조명 인테리어의 법칙</h2>
+            </div>
+            <p>조명의 밝기의 경우, 단위로 나타내는데 이는 루멘 lm (전구 자체의 밝기), 룩스 lx (장소의 밝기), 캘빈 K (빛 자체의 식감) 3가지로 나눌 수가 있다. 루멘 값이 클수록 밝은 
+                전구이며, 룩스가 높을수록 조도가 밝아지게 된다. 그리고 켈빈은 값이 낮을수록 따뜻한색이며, 높을수록 차가운색을 의미한다. 조명을 직접 구매할 경우에 위의 3가지가 반드시 
+                표시되어 있기 때문에 유심히 잘 살펴보는 것이 더욱 좋은 조명을 구입하는 방법이다.</p>
+        </div>
+
+        <div class="light_choice">
+            <div class="cho_one">
+                <img src="images/interior_03_icon_02.png" alt="interiorthreeicon">
+                <h2>포인트에 맞는<br>
+                    조명 인테리어 종류</h2>
+            </div>
+            <div class="cho_two">
+                <ul>
+                    <li>
+                        <h3>다운라이트</h3>
+                        <p>매립등이라고도 불리는 다운라이트의 경우, 크기가 굉장히 다양하다. 천장에 타공을 한 다음 내부에 시공하는 조명인데, 매립 형식으로 진행되므로 깔끔하면서도 인테리어를 
+                            크게 해치지 않는다. 튀어나오는 부분이 없다는 특성 때문에 층고가 높아 보이기도 한다. 그리고 장소에 크게 구애를 받지 않아서 많은 이들에게 사랑을 받고 있다. 사실상 가장 
+                            깔끔하게 보이기 때문에 미니멀리즘을 추구하는 이들에게 적극 추천한다. 다운라이트는 다양한 형태가 있는데, 전구색, 주백색, 주광색으로서 색상별로 3가지가 존재한다. 
+                            그리고 포인트 형, 집중형 등등 연출하고 싶은 느낌에 따라 다양한 선택이 가능하다.</p>
+                    </li>
+                    <li>
+                        <h3>레일 조명</h3>
+                        <p>박물관이나 스튜디오, 미술관 등에서 은은한 조명을 느꼈던 적이 있었을 것이다. 이를 레일 조명이라고 하는데, 미적 감각을 중요시하는 이들이 많이 선호한다. 부분적으로 
+                            포인트가 되기도 하고, 세련된 느낌도 강력하게 들기도 한다. 보통 거실보다는 주방에 많이 사용한다. 각도를 원하는 대로 변경할 수 있다는 점 때문에 시시때때로 구조를 바꿀 때 
+                            방향을 바꾸어 새로운 변화를 주고 싶을 때 많이들 사용한다.</p>
+                    </li>
+                    <li>
+                        <h3>직부등</h3>
+                        <p>일반 가정집에서 많이들 사용되는 직부등은 LED엣지등, 면조명, 평판등이라고도 불리운다. 아파트 거실이나 안방 등에 기본적으로 쓰이고 있는 가장 흔히 볼 수 있는 종류이다. 
+                            장소에 구애받지 않고 잘 어울리고 깔끔하다는 점이 가장 큰 특징이다. 전체적으로 균일한 밝기를 제공하기도 한다. 다만, 플리커 현상을 일으키는 저품질 LED를 사용하게 되면, 
+                            눈의 피로도 또는 시력 저하를 유발할 수 있다. 조명의 빛이 계속하여 밝게 유지하는 것처럼 보이지만 실제로는 깜빡거림이 진행되고 있다. 이를 알 수 있는 방법은 휴대전화 
+                            슬로우모션 촬영으로 확인하는 것인데, 빛을 향해 영상을 찍어보면 불이 꺼졌다 켜지는 것을 같이 볼 수 있다. 이를 플리커 현상이 아른거린다고 표현한다. 실제로 반려동물의 
+                            경우에는 사람보다 동체시력이 4배 정도 되는데, 반려동물을 키우는 이들이라면 함께 참고하면 좋을 둣하다.</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="adhd_img_group">
+            <ul>
+                <li><img src="images/interior_03_img01.png" alt="interiorthreeimg"></li>
+                <li><img src="images/interior_03_img02.png" alt="interiorthreeimg"></li>
+            </ul>
+        </div>
+
+        <div class="light_choice_two">
+            <ul>
+                <li>
+                    <h3>샹들리에</h3>
+                    <p>클래식하면서도 고급스러운 분위기를 극대화해 주는 샹들리에는 호텔 로비와 웨딩홀, 연회장 등과 같이 격식이 필요한 곳이나 화려한 분위기의 장소에서 대체로 볼 수 있다. 
+                        요즘엔 펜트하우스나 주택, 복층 구조의 집에서도 많이 쓰인다. 천정고의 높이가 높아야 설치가 가능하므로 다소 장소의 제한이 있을 수밖에 없으나, 심미적인 요소가 강조되므로 
+                        꾸준히 사랑받고 있다. 그리고 세부적인 카테고리가 굉장히 다양하여 재질이나 모양새 등 추구하는 부분에 맟춰 시공할 수 있기 때문에 개인의 취향을 담을 수 있다는 것이 
+                        강한 장점이다.</p>
+                </li>
+                <li>
+                    <h3>간접등</h3>
+                    <p>간접등은 은은한 색상과 밝기로 인해 꽤 꾸준한 사랑을 받고 있다. 주로 현관이나 주방, 커튼 박스, 욕실 등 아주 다양한 위치에 쓰이고 있다. 요즘엔 센서를 이용하여 밤에 자다가 
+                        화장실을 가거나 물을 마시러 주방에 갈 때 유용하게 쓰인다. 그럴 때마다 환한 형광등이나 LED 등이 켜지면 눈부심으로 인해 잠이 확 깰 때도 있고, 한 사람으로 인해 다른 
+                        가족들도 같이 깨는 경우도 있는데, 이럴 땐 간접등이 굉장히 유용한 역할을 한다.</p>
+                </li>
+                <li>
+                    <h3>브라켓 조명</h3>
+                    <p>브라켓 조명, 즉 벽부등은 벽면 또는 기둥에 설치하는 방식으로 사용이 되고 있다. 액자나 현관 앞, 침대의 헤드 옆 부분 등 은은하게 비쳐서 고급스러움을 더해주는 핵심의 
+                        조명이다. 깔끔하면서도 모던함보다는 따뜻하면서 아늑한 분위기를 연출해 준다. </p>
+                </li>
+            </ul>
+        </div>
+
+    </div>
+
+        <div id="light_point" class="ibm">
+            <div>
+                <div class="light_title">
+                    <img src="images/interior_03_icon_03.png" alt="interiorthreeicon">
+                    <h2>포인트에 맞는<br>
+                        조명 인테리어 종류</h2>
+                </div>
+                <div class="light_content">
+                    <ul class="img_text_slide">
+                        <li><img src="images/interior_03_slide_01.png" alt="interiorthreeslide"></li>
+                        <li><img src="images/interior_03_slide_02.png" alt="interiorthreeslide"></li>
+                        <li><img src="images/interior_03_slide_03.png" alt="interiorthreeslide"></li>
+                    </ul>
+                </div>
+                <ul class="light_color">
+                    <li>
+                        <h3>주광색</h3>
+                        <p>주광색은 흰색 조명으로서 가장 밝기가 높으며, 우리나라 가정에서 가장 많이 사용되는 조명색이다. 집중이 필요한 아이들의 공부방에서 사용하면 좋은 색상인데, 밝고 깨끗한 
+                            느낌을 주는 반면 차가운 느낌이 들고 눈이 쉽게 피로해진다는 단점이 있다. 이를 아래에 소개해 주는 주백색이 커버해 준다.</p>
+                    </li>
+                    <li>
+                        <h3>주백색</h3>
+                        <p>하얀 주광색 그리고 노란 전구색 사이의 컬러인 주백색은 주황색과 백색이 합쳐진 색이다. 깔끔하면서도 밝고 따뜻한 느낌을 주어 많은 이들이 거실과 방 등으로 선호하는 
+                            색상이다. 또한, 음식이 맛있어 보이게 하는 효과가 있어서 주방 등으로도 선택하곤 한다.</p>
+                    </li>
+                    <li>
+                        <h3>전구색</h3>
+                        <p>전구색은 편안하면서도 따뜻한 분위기를 나타내므로 눈부심이 적고, 침대맡에 두기 좋은 전구색이다. 일상생활 속에서 간접조명으로 사용하기에 감성적이고, 분위기를 연출해 
+                            주는 데에 제격이다. 그러나, 메인 등으로 사용하기엔 조금 부적합할 수 있다는 우려가 있다. 그래서 가정동 LED 등은 대부분 전구색보단 주백색 혹은 주광색으로 만들어진다. 
+                            또한, 무언가를 꼼꼼하게 확인해야 하는 공간에는 색온도가 맞지 않다. 주방 싱크대와 가스레인지 위쪽에 위치할 메인 조명의 색온도로는 적합하지 않다.</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+
+    
+
+    <footer class='nanum'>
+        <div class="footergroup">
+            <h2><img src="images/logo.png" alt="logoimg"></h2>
+            <span>Mrs. Magazine</span>
+            <p>© Copyright 2024 SeoHyunLim.  All Rights Reserved.</p>
+        </div>
+    </footer>
+    
+</body>
+</html>
